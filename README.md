@@ -1,2 +1,2 @@
-# Teams---Bot
+# Teams
 A discord bot
