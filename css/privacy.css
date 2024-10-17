@@ -1,0 +1,82 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.policy-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #4a90e2;
+}
+
+.policy-content h3 {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.policy-content p, .policy-content ul {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.policy-content ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.policy-content ul li {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #666;
+}
